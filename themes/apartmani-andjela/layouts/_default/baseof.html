@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+{{ $languageCode := print .Site.LanguageCode }}
+<html lang="{{$languageCode}}">
     {{- partial "head.html" . -}}
-    <body>
+    <body class="custom-background">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}

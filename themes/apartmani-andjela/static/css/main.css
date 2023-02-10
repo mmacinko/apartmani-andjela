@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sonsie+One&display=swap');
+:root {
+    --global--font-primary: 'Sonsie One', cursive;
+    --global--font-secondary: 'Roboto', sans-serif;
+}
+
+body.custom-background {
+    background-color: #293377;
+    background-image: url('/images/otok_iz_white.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.site-title {
+	font-family: var(--global--font-primary);
+}
