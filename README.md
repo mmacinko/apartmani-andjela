@@ -10,7 +10,6 @@ Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-ap
 
 ## Table of Contents:
 
-- [Quick Setup + Deploy Option](#quick-setup--deploy-option)
 - [Regular Setup](#regular-setup)
   - [Cloning + Install Packages](#1-cloning--install-packages)
   - [Deploying](#2-deploying)
@@ -23,12 +22,6 @@ Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-ap
   - [Removing Renovate](#removing-renovate)
   - [Removing Cypress](#removing-cypress)
 - [Want to learn more?](#want-to-learn-more)
-
-## Quick Setup + Deploy Option
-
-Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart)
 
 ## Regular Setup
 
@@ -43,6 +36,8 @@ Click this button and it will help you create a new repo, create a new Netlify p
 
    - `hugo server -D`
    - go to [http://localhost:1313/](http://localhost:1313/)
+
+   - `hugo server --disableFastRender`
 
   > Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s by running the `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
 

@@ -8,15 +8,6 @@
     --global--font-secondary: 'Roboto', sans-serif;
 }
 
-body.custom-background {
-    background-color: #293377;
-    background-image: url('/images/otok_iz_white.png');
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .site-title {
 	font-family: var(--global--font-primary);
 }

@@ -2,7 +2,7 @@
 {{ $languageCode := print .Site.LanguageCode }}
 <html lang="{{$languageCode}}">
     {{- partial "head.html" . -}}
-    <body class="custom-background">
+    <body class="bg-[#293377] bg-[url('/images/otok\_iz\_white.png')] bg-center bg-contain bg-no-repeat bg-fixed">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
